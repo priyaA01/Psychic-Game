@@ -1,0 +1,74 @@
+ body{
+     background-color: cornflowerblue;
+     font-size:70px;
+     width:100%;
+     color:white;
+}
+ header{
+     background-color: cornflowerblue;
+     padding:10px;
+     font-size:80px;
+     color:white;
+     font-family: 'Risque', cursive;
+     margin-bottom:30px;
+}
+ .mainContainer{
+     width:90%;
+     background-color: midnightblue;
+     height:auto;
+     margin-bottom: 30px;
+}
+ footer{
+     color:white;
+     padding-top:10px;
+     font-size:15px;
+}
+ .btn{
+     margin-top:5%;
+     white-space: normal;
+     margin-bottom:25%;
+     width:25%;
+
+}
+ #computerLetter,#userLetter{
+     margin-top:20px;
+     padding:30px;
+     text-align: center;
+     font-size:70px;
+     font-family: 'Roboto Slab', serif;
+}
+ #errorMsg{
+     display:none;
+     color:white;
+     background-color: darkslateblue;
+     padding:5px;
+     font-size:25px;
+}
+ #computerLetterHidden{
+     display:none;
+}
+
+ #imgMap{
+     width:100%;
+     margin-top:40px;
+     padding-left:20px;
+}
+ #tableHeader{
+     padding:5px;
+     text-align: center;
+     background-color:darkslateblue;
+     font-size:30px;
+     font-family: 'Dancing Script', cursive;
+     color:white;
+}
+ .tableContent{
+     font-size:20px;
+}
+ table{
+     margin-top:40px;
+     margin-bottom:20px;
+     overflow-x:auto;
+     width:100%;
+}
+ 
+  

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Priya Ammaiyappan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to added fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Risque|Dancing+Script:400,700|Roboto+Slab" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Link to external CSS :  reset , style-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    
+</head>
+
+<body>
+    <header class="text-center">
+        <h1>Psychic Game</h1>
+    </header>
+    <div class="container mainContainer" id="containerColor">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-12">
+                <img id="imgMap" src="assets/images/psychic.png" class="img-responsive img-rounded" alt="Hangman">
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 ">
+                        <p id="computerLetter"> </p>
+                        <p id="computerLetterHidden"></p>
+                        <p id="userLetter"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p id="errorMsg" class="text-center"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 text-center">
+                        <button id="btnGamestart" class="btn btn-primary btn-lg ">PRESS TO START</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="pull-left">
+                    <table class="table table-bordered">
+                        <caption id="tableHeader">Score Board</caption>
+                        <tr class="tableContent">
+                            <td>Wins</td>
+                            <td id="wins">0</td>
+                        </tr>
+                        <tr class="tableContent">
+                            <td>Losses</td>
+                            <td id="losses">0</td>
+                        </tr>
+                        <tr class="tableContent">
+                            <td>Guesses Left </td>
+                            <td id="guessesRemaining">10</td>
+                        </tr>
+                        <tr class="tableContent">
+                            <td>Already Guessed </td>
+                            <td id="lettersGuessed"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer navbar-fixed-bottom text-center" >
+         &copy; Copyright 2018 Priya Ammaiyappan
+    </footer>
+
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>

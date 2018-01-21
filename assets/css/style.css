@@ -16,12 +16,13 @@
      width:90%;
      background-color: midnightblue;
      height:auto;
-     margin-bottom: 30px;
+     margin-bottom: 50px;
 }
  footer{
      color:white;
      padding-top:10px;
      font-size:15px;
+     height:30px;
 }
  .btn{
      margin-top:5%;
@@ -49,7 +50,7 @@
 }
 
  #imgMap{
-     width:100%;
+     /* width:100%; */
      margin-top:40px;
      padding-left:20px;
 }
@@ -70,5 +71,29 @@
      overflow-x:auto;
      width:100%;
 }
+
+/* media queries */
+
+ @media screen and (max-width:768px) {
+     header{
+        font-size:40px;
+     }
+
+}
+@media screen and (max-width:640px) {
+     body{
+        font-size:15px;
+     }
+     header{
+        font-size:20px;
+     }
+     footer{
+        font-size: 10px;
+        height:20px;
+     }
+
+} 
+
+  
  
   
